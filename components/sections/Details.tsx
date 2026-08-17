@@ -10,7 +10,7 @@ export function Details() {
         src="/images/pistolcm.jpg"
         alt=""
         fill
-        priority
+        preload
         className="object-cover"
       />
 

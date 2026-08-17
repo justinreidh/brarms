@@ -10,7 +10,7 @@ export function Hero() {
         src="/images/pistolblk.jpg"
         alt=""
         fill
-        priority
+        preload
         className="object-cover"
       />
 
