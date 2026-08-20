@@ -43,7 +43,7 @@ function FooterColumn({
 
 export function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-primary border-t border-white/20 text-white ">
       {/* Main footer */}
       <div className="mx-auto max-w-[1600px] px-8 py-20 md:px-12 lg:px-16 lg:py-24">
         <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr] lg:gap-12">

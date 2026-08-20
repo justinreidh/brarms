@@ -2,18 +2,18 @@
 
 import { motion } from "motion/react";
 
-interface DarkOverlayProps {
+interface BlackOverlayProps {
   duration?: number;
   delay?: number;
 }
 
-export function DarkOverlay({
+export function BlackOverlay({
   duration = 1.5,
   delay = 0,
-}: DarkOverlayProps) {
+}: BlackOverlayProps) {
   return (
     <motion.div
-      className="absolute inset-0 z-10 bg-primary"
+      className="absolute inset-0 z-10 bg-black"
       initial={{ opacity: 1 }}
       whileInView={{ opacity: 0 }}
       viewport={{

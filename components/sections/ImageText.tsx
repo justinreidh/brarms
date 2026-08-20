@@ -1,14 +1,15 @@
 import Image from "next/image";
 import { FadeIn } from "../animations/FadeIn";
+import { BlackOverlay } from "../animations/BlackOverlay";
 
 export function ImageText() {
   return (
-    <section className="flex  w-full flex-col bg-black text-white md:flex-row">
+    <section className="flex md:min-h-screen w-full flex-col bg-black text-white md:flex-row">
       
       {/* Image */}
       <div className="flex w-full items-center justify-end py-8 md:py-16 px-8 md:pr-0 md:w-1/2 lg:pl-16">
         <div className="relative aspect-[5/3] w-full max-w-2xl overflow-hidden">
-          
+          <BlackOverlay />
           <Image
             src="/images/pistolrd.jpg"
             alt="About us"

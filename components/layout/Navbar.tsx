@@ -49,38 +49,38 @@ export function Navbar() {
       }}
       className={`fixed left-0 top-0 z-50 w-full transition-colors duration-300 ${
         scrolled
-          ? "bg-black/90 backdrop-blur-md"
+          ? "bg-primary/80 backdrop-blur-md"
           : "bg-transparent"
       }`}
     >
-      <div className="relative flex h-20 w-full items-center px-8 md:px-30">
+      <div className="font-thin relative flex h-20 w-full items-center px-8 md:px-30">
         {/* Logo */}
         <a
           href="/"
-          className="text-xl font-medium tracking-tight text-white"
+          className="text-4xl tracking-tight text-white"
         >
-          B&R Elite Arms
+          B&R ELITE ARMS
         </a>
 
         {/* Centered Navigation */}
-        <div className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-10 md:flex">
+        <div className="font-bold absolute left-1/2 hidden -translate-x-1/2 items-center gap-10 md:flex">
           <a
             href="/products"
-            className="text-sm text-white/80 transition-colors hover:text-white"
+            className="text-white transition-colors hover:text-white/70"
           >
             Products
           </a>
 
           <a
             href="/about"
-            className="text-sm text-white/80 transition-colors hover:text-white"
+            className="text-white transition-colors hover:text-white/70"
           >
             About
           </a>
 
           <a
             href="/contact"
-            className="text-sm text-white/80 transition-colors hover:text-white"
+            className="text-white transition-colors hover:text-white/70"
           >
             Contact
           </a>
