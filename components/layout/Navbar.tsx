@@ -65,7 +65,7 @@ export function Navbar() {
         {/* Centered Navigation */}
         <div className="font-bold absolute left-1/2 hidden -translate-x-1/2 items-center gap-10 md:flex">
           <a
-            href="/products"
+            href="/products/t-los"
             className="text-white transition-colors hover:text-white/70"
           >
             Products

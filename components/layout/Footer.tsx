@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const categories = [
-  { label: "T-LOS Founder Edition", href: "/products" },
+  { label: "T-LOS Founder Edition", href: "/products/t-los" },
 ];
 
 const company = [
