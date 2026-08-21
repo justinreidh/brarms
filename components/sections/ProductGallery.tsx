@@ -68,8 +68,7 @@ export function ProductGallery() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Subtle overlay */}
-      <div className="pointer-events-none absolute inset-0 bg-black/10" />
+
 
       {/* Previous */}
       <button

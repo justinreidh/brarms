@@ -49,7 +49,7 @@ export function Navbar() {
       }}
       className={`fixed left-0 top-0 z-50 w-full transition-colors duration-300 ${
         scrolled
-          ? "bg-primary/80 backdrop-blur-md"
+          ? "bg-secondary/80 backdrop-blur-md"
           : "bg-transparent"
       }`}
     >

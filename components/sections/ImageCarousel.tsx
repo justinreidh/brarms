@@ -42,7 +42,7 @@ export function ImageCarousel() {
           {images.map((image, index) => (
             <div
               key={`${image}-${index}`}
-              className="relative aspect-[5/4] w-[calc((100%-2rem)/3)] shrink-0 overflow-hidden"
+              className="relative aspect-[5/4]  w-[calc((100%-2rem)/3)] shrink-0 overflow-hidden"
             >
               <Image
                 src={image}

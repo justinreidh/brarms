@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const products = [
   { label: "T-LOS", href: "/products/t-los" },
@@ -44,11 +45,16 @@ function FooterColumn({
 export function Footer() {
   return (
     <footer className="bg-primary border-t border-white/20 text-white ">
+        
       {/* Main footer */}
       <div className="mx-auto max-w-[1600px] px-8 py-20 md:px-12 lg:px-16 lg:py-24">
+        
         <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr] lg:gap-12">
+          
+          
           {/* Brand */}
           <div className="flex flex-col justify-center">
+            
             <Link
               href="/"
               className="text-2xl font-semibold tracking-tight text-white md:text-3xl"

@@ -5,6 +5,7 @@ import { DarkOverlay } from "../animations/DarkOverlay";
 export function TextImage() {
   return (
     <section className="flex md:min-h-screen w-full flex-col bg-chart-5 text-white md:flex-row">
+      
       {/* Text */}
       <div className="flex w-full items-center justify-center px-8 pt-20 md:py-20 md:w-1/2 md:px-12 lg:px-20">
         <div className="max-w-xl">
@@ -27,7 +28,7 @@ export function TextImage() {
 
       {/* Image */}
       <div className="flex w-full items-center justify-start py-8 md:py-16 px-8 md:pl-0 md:w-1/2 lg:pr-16">
-        <div className="relative aspect-[5/3] w-full max-w-2xl overflow-hidden">
+        <div className="relative aspect-[5/3] w-full  max-w-2xl overflow-hidden">
           <DarkOverlay />
           <Image
             src="/images/pistolrd.jpg"
