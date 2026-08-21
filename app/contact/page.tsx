@@ -11,7 +11,7 @@ export default function ContactPage() {
            
 
             <h1 className="font-h text-6xl font-light leading-[0.9] tracking-[-0.04em] md:text-7xl lg:text-8xl">
-              Get in touch.
+              Contact
             </h1>
           </FadeIn>
 

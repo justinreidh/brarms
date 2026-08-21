@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-const categories = [
-  { label: "T-LOS Founder Edition", href: "/products/t-los" },
+const products = [
+  { label: "T-LOS", href: "/products/t-los" },
 ];
 
 const company = [
@@ -89,7 +89,7 @@ export function Footer() {
           </div>
 
           {/* Categories */}
-          <FooterColumn title="Categories" links={categories} />
+          <FooterColumn title="Products" links={products} />
 
           {/* Company */}
           <FooterColumn title="Company" links={company} />
